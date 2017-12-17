@@ -1,0 +1,116 @@
+﻿body {
+  color: #005500;
+  background: #fff url(../images/bg_top.png) repeat-x top center;
+  font-size: 12px;
+  font-family: Arial;
+}
+
+a {
+  color: #ffaa00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header_container {
+  height: 100px;
+  overflow: hidden;
+}
+
+.header_container .grid_5 {
+  display: block;
+  text-indent: -9999px;
+  height: 100px;
+  width: 330px;
+  float: left;
+  background: url(../images/TM.png) no-repeat center;
+}
+
+	.header_container .grid_7 .paragraph_menu {
+    float: right;
+	}
+
+	  .header_container .grid_7 a {
+      display: block;
+      text-indent: -9999px;
+      height: 100px;
+      background: url(../images/paragraph_menu.png) no-repeat;
+      float: left;
+      margin: 0 40px 0 0;
+	  }
+
+	    .header_container .grid_7 a.home {
+	      width: 65px;
+	      background-position: 0px 0px;
+	    }
+
+		    .header_container .grid_7 a.home:hover,
+		    .header_container .grid_7 a.home.active {
+		      background-position: 0px -100px;
+		    }
+
+      .header_container .grid_7 a.portfolio {
+          width: 95px;
+          background-position: -135px 0px;
+      }
+
+		    .header_container .grid_7 a.portfolio:hover,
+	      .header_container .grid_7 a.portfolio.active {
+	        background-position: -135px -100px;
+	      }
+
+      .header_container .grid_7 a.about {
+          width: 85px;
+          background-position: -295px -200px;
+      }
+
+	      .header_container .grid_7 a.about:hover,
+	      .header_container .grid_7 a.about.active {
+	          background-position: -295px -100px;
+	      }
+
+      .header_container .grid_7 a.contact {
+          width: 120px;
+          background-position: -430px 0px;
+      }
+
+	      .header_container .grid_7 a.contact:hover,
+	      .header_container .grid_7 a.contact.active {
+	          background-position: -430px -100px;
+	      }
+
+.content_container {
+  height: auto;
+  overflow: hidden;
+	color: #003300;
+}
+
+	.content_container .date {
+	  text-align: center;
+		padding: 30px 700px 0 0;
+	  font-size: 15px;
+	}
+
+	.content_container .post {
+	  text-align: center;
+		padding: 0 0 0 50px;
+	  font-size: 25px;
+	}	
+
+	.content_container .company {
+	  text-align: center;
+		padding: 10px 0 50px 550px;
+	  font-size: 18px;
+	}
+
+.footer_container {
+  background: #000 url(../images/bg_bottom.png) repeat-x top center;
+  height: 50px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  color: #fff;
+	position:relative;
+}
